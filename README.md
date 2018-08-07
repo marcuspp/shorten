@@ -28,6 +28,16 @@ About- http://127.0.0.1:8000/ - Very basic about page
 Shorten Url - http://127.0.0.1:8000/shorten_url/ - Accepts a post of url to shorten
 ```
 
+## Tests
+
+```
+docker exec -ti shorten_web_1 /bin/bash
+cd shorten
+python manage.py test
+```
+
+
+
 ## Improvements
 - Use nginx and uwsgi and not the development server
 - Change storage engine from postgres to something like redis
