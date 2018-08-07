@@ -18,7 +18,9 @@ docker-compose up
 
 ## Usage
 
-The django rest framework API browser is still enabled to ease with testing. So visting http://127.0.0.1:8000/shorten_url/ provides a nice page and form to post the url.
+The django rest framework API browser is still enabled to ease with testing. So visting http://127.0.0.1:8000/shorten_url/ provides a nice page and form to post the url. 
+
+N.B: A url needs to have either http or https to be deemed valid.
 
 ```
 Home - http://127.0.0.1:8000/ - Very basic home page
