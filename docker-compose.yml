@@ -7,7 +7,7 @@ services:
             POSTGRES_PASSWORD: postgres
     web:
         build: .
-        command: ["./wait-for-postgres.sh", "db", "python3 shorten/manage.py migrate", "python3 shorten/manage.py runserver 0.0.0.0:8000"]
+        command: ["make", "start"]
         volumes:
             - .:/code
         ports:
