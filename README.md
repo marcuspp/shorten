@@ -24,7 +24,7 @@ N.B: A url needs to have either http or https to be deemed valid.
 
 ```
 Home - http://127.0.0.1:8000/ - Very basic home page
-About- http://127.0.0.1:8000/ - Very basic about page
+About- http://127.0.0.1:8000/about/ - Very basic about page
 Shorten Url - http://127.0.0.1:8000/shorten_url/ - Accepts a post of url to shorten
 ```
 
