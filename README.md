@@ -42,6 +42,7 @@ python manage.py test
 - Use nginx and uwsgi and not the development server
 - Change storage engine from postgres to something like redis
 - Add caching to the redirect view
+- Add unittests
 
 ## Scaling
 To scale I would at very least implement the above improvements. However this microservice would be a good candiate to use AWS lambda and elasticache. Using lambda would take care of any scaling issues as long as the application was reworked correctly. Django and the rest framework would not be required as lots of what they bring would be handled by lambda and the API gateway.
