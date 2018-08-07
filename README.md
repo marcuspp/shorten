@@ -5,7 +5,7 @@ This is a technical exercise to create a Url shortner in python
 - git, docker and docker-compose and all required to run the application
 
 The project uses docker, django and the django rest framework to create a API where a url can be posted and a shortened one returned.
-A redirect view can then decode the shortened url and redirect to the longer version.
+A redirect view can then decodes the shortened url and the request is redirected to the longer version.
 
 ## Installation instructions
 
